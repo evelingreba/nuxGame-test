@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     srcDir: 'src/',
 
     app: {
-        baseURL: 'nuxGame-test'
+        baseURL: '/nuxGame-test/'
     },
 
     dir: {
@@ -42,7 +42,9 @@ export default defineNuxtConfig({
     nitro: {
         prerender: {
             failOnError: false
-        }
+        },
+
+        preset: 'github-pages'
     },
 
     features: {
