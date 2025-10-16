@@ -1,0 +1,43 @@
+// Breakpoints
+$gridBreakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+// Fonts
+$fontFamily: 'Rubik', 'Arial', sans-serif;
+$fontFixelDisplay: 'FixelDisplay', 'Helvetica', 'Arial', sans-serif;
+$fontSourceCode: 'SourceCode', 'FixelDisplay', 'Helvetica', 'Arial', sans-serif;
+$fontSize: 16px;
+$fontLineHeight: 18px;
+
+// Colors
+$white: #fff;
+$black: #000;
+$black400: #707070;
+$black300: #8F8F8F;
+$black250: #CCC;
+$black200: #D6D6D6;
+$black100: #E9E9E9;
+$black50: #F3F3F3;
+$black40: #D2D2D2;
+$black30: #F5F5F5;
+$blue: #01344F;
+$red: #EA2323;
+$red900: #EB1717;
+$green: #289833;
+
+// Links
+$linkColor: #5285cc;
+$linkColorHover: #7fb5ff;;
+
+// Transitions
+$baseTransition: all .2s ease-in-out;
+$linearTransition: all .2s linear;
+
+// Icons
+$iconColor: currentColor;

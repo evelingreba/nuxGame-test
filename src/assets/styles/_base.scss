@@ -1,0 +1,32 @@
+@use './variables' as *;
+@use './mixins' as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent; // remove dummy highlighting of element on tap
+}
+
+input.input-text,
+textarea {
+  padding: 2px;
+}
+
+button,
+input,
+select,
+textarea {
+  font: 16px Rubik, Helvetica, sans-serif;
+  vertical-align: middle;
+  outline: 0 transparent;
+}
+
+html,
+body {
+  font: 18px Rubik, Helvetica, sans-serif;
+  color: #444;
+  min-height: 100dvh;
+}
