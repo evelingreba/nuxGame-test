@@ -4,6 +4,10 @@ export default defineNuxtConfig({
     compatibilityDate: '2025-07-15',
     srcDir: 'src/',
 
+    app: {
+        baseURL: 'nuxGame-test'
+    },
+
     dir: {
         public: '../public',
     },
@@ -33,6 +37,12 @@ export default defineNuxtConfig({
         },
 
         plugins: [require('vite-svg-loader')()]
+    },
+
+    nitro: {
+        prerender: {
+            failOnError: false
+        }
     },
 
     features: {
