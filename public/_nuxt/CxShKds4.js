@@ -1,0 +1,1 @@
+import{_ as a,y as r,z as t,A as n,M as o,T as l}from"#entry";const c={};function d(s,e){return t(),r(l,null,[e[0]||(e[0]=n("div",{class:"background"},null,-1)),o(s.$slots,"default")],64)}const u=a(c,[["render",d]]);export{u as default};
