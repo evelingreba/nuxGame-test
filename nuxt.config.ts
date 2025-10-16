@@ -44,7 +44,7 @@ export default defineNuxtConfig({
             failOnError: false
         },
 
-        preset: 'github-pages'
+        preset: 'github_pages'
     },
 
     features: {
